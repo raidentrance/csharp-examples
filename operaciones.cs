@@ -4,7 +4,7 @@ public class Program
 {
 	
 	public static void suma(double x,double y){
-		Console.WriteLine("El resultado de la suma es "+(x+y));
+		Console.Writ eLine("El resultado de la suma es "+(x+y));
 	}
 	
 	public static void resta(double x, double y){
@@ -12,12 +12,12 @@ public class Program
 	}
 	
 	public static void multiplicacion(double x, double y){
-		Console.WriteLine("El resultado de la multiplicación es "+(x*y));
+		Console.WriteLine("El resultado de la multiplicacion es "+(x*y));
 	}
 	
 	public static void division(double x, double y){
 		if(y!=0){
-			Console.WriteLine("El resultado de la división es "+(x/y));
+			Console.WriteLine("El resultado de la division es "+(x/y));
 		}else{
 			Console.WriteLine("No se puede realizar la división entre 0");
 		}
